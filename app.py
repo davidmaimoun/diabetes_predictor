@@ -55,14 +55,14 @@ def user_input_features():
    diabetesPedigreeFunction = st.sidebar.number_input('8- Diabete Pedigree', value = 0.351)
 
    data = {
-      'pregnancies': pregnancies, 
-      'glucose': glucose,
-      'bloodPressure': bloodPressure,
-      'skinThickness': skinThickness,
-      'insulin': insulin,
-      'bmi': bmi,
-      'diabetesPedigreeFunction': diabetesPedigreeFunction,
-      'age': age
+      'Pregnancies': pregnancies, 
+      'Glucose': glucose,
+      'BloodPressure': bloodPressure,
+      'SkinThickness': skinThickness,
+      'Insulin': insulin,
+      'BMI': bmi,
+      'DiabetesPedigreeFunction': diabetesPedigreeFunction,
+      'Age': age
    }
    features = pd.DataFrame(data, index=[0])
    return features
